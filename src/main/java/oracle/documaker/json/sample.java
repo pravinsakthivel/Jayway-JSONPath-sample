@@ -35,7 +35,7 @@ public class sample {
         docArray.add(docObj);
 
         obj.put("Documents",docArray);
-        System.out.println(obj);
+       // System.out.println(obj);
         //System.out.println("Helo :::"+JsonPath.using(Configuration.defaultConfiguration().addOptions(Option.ALWAYS_RETURN_LIST,Option.SUPPRESS_EXCEPTIONS)).parse(json).read("$.*"));
     }
 }
